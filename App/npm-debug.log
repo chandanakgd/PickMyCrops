@@ -1,0 +1,182 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'i',
+1 verbose cli   '-g',
+1 verbose cli   '@angular/cli' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData @angular/cli
+8 silly fetchNamedPackageData @angular/cli
+9 silly mapToRegistry name @angular/cli
+10 silly mapToRegistry scope (from package name) @angular
+11 verbose mapToRegistry no registry URL found in name for scope @angular
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry data Result {
+14 silly mapToRegistry   raw: '@angular/cli',
+14 silly mapToRegistry   scope: '@angular',
+14 silly mapToRegistry   escapedName: '@angular%2fcli',
+14 silly mapToRegistry   name: '@angular/cli',
+14 silly mapToRegistry   rawSpec: '',
+14 silly mapToRegistry   spec: 'latest',
+14 silly mapToRegistry   type: 'tag' }
+15 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcli
+16 verbose request uri https://registry.npmjs.org/@angular%2fcli
+17 verbose request no auth needed
+18 info attempt registry request try #1 at 11:44:52 PM
+19 verbose request id 608c49ce110089ec
+20 verbose etag W/"5af4878f-859ce"
+21 verbose lastModified Thu, 10 May 2018 17:55:27 GMT
+22 http request GET https://registry.npmjs.org/@angular%2fcli
+23 info retry will retry, error on last attempt: Error: unable to verify the first certificate
+24 info attempt registry request try #2 at 11:45:02 PM
+25 verbose etag W/"5af4878f-859ce"
+26 verbose lastModified Thu, 10 May 2018 17:55:27 GMT
+27 http request GET https://registry.npmjs.org/@angular%2fcli
+28 info retry will retry, error on last attempt: Error: unable to verify the first certificate
+29 info attempt registry request try #3 at 11:46:02 PM
+30 verbose etag W/"5af4878f-859ce"
+31 verbose lastModified Thu, 10 May 2018 17:55:27 GMT
+32 http request GET https://registry.npmjs.org/@angular%2fcli
+33 silly get cb [ 304, undefined ]
+34 verbose etag https://registry.npmjs.org/@angular%2fcli from cache
+35 verbose get saving @angular/cli to C:\Users\DILIP\AppData\Roaming\npm-cache\registry.npmjs.org\_40angular_252fcli\.cache.json
+36 verbose correctMkdir C:\Users\DILIP\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+37 silly install normalizeTree
+38 silly loadCurrentTree Finishing
+39 silly loadIdealTree Starting
+40 silly install loadIdealTree
+41 silly cloneCurrentTree Starting
+42 silly install cloneCurrentTreeToIdealTree
+43 silly cloneCurrentTree Finishing
+44 silly loadShrinkwrap Starting
+45 silly install loadShrinkwrap
+46 silly loadShrinkwrap Finishing
+47 silly loadAllDepsIntoIdealTree Starting
+48 silly install loadAllDepsIntoIdealTree
+49 silly resolveWithNewModule @angular/cli@6.0.1 checking installable status
+50 silly cache add args [ '@angular/cli', null ]
+51 verbose cache add spec @angular/cli
+52 silly cache add parsed spec Result {
+52 silly cache add   raw: '@angular/cli',
+52 silly cache add   scope: '@angular',
+52 silly cache add   escapedName: '@angular%2fcli',
+52 silly cache add   name: '@angular/cli',
+52 silly cache add   rawSpec: '',
+52 silly cache add   spec: 'latest',
+52 silly cache add   type: 'tag' }
+53 silly addNamed @angular/cli@latest
+54 verbose addNamed "latest" is being treated as a dist-tag for @angular/cli
+55 info addNameTag [ '@angular/cli', 'latest' ]
+56 silly mapToRegistry name @angular/cli
+57 silly mapToRegistry scope (from package name) @angular
+58 verbose mapToRegistry no registry URL found in name for scope @angular
+59 silly mapToRegistry using default registry
+60 silly mapToRegistry registry https://registry.npmjs.org/
+61 silly mapToRegistry data Result {
+61 silly mapToRegistry   raw: '@angular/cli',
+61 silly mapToRegistry   scope: '@angular',
+61 silly mapToRegistry   escapedName: '@angular%2fcli',
+61 silly mapToRegistry   name: '@angular/cli',
+61 silly mapToRegistry   rawSpec: '',
+61 silly mapToRegistry   spec: 'latest',
+61 silly mapToRegistry   type: 'tag' }
+62 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcli
+63 verbose addNameTag registry:https://registry.npmjs.org/@angular%2fcli not in flight; fetching
+64 verbose request uri https://registry.npmjs.org/@angular%2fcli
+65 verbose request no auth needed
+66 info attempt registry request try #1 at 11:46:23 PM
+67 verbose etag W/"5af4878f-859ce"
+68 verbose lastModified Thu, 10 May 2018 17:55:27 GMT
+69 http request GET https://registry.npmjs.org/@angular%2fcli
+70 info retry will retry, error on last attempt: Error: unable to verify the first certificate
+71 info attempt registry request try #2 at 11:46:33 PM
+72 verbose etag W/"5af4878f-859ce"
+73 verbose lastModified Thu, 10 May 2018 17:55:27 GMT
+74 http request GET https://registry.npmjs.org/@angular%2fcli
+75 info retry will retry, error on last attempt: Error: unable to verify the first certificate
+76 info attempt registry request try #3 at 11:47:33 PM
+77 verbose etag W/"5af4878f-859ce"
+78 verbose lastModified Thu, 10 May 2018 17:55:27 GMT
+79 http request GET https://registry.npmjs.org/@angular%2fcli
+80 silly get cb [ 304, undefined ]
+81 verbose etag https://registry.npmjs.org/@angular%2fcli from cache
+82 verbose get saving @angular/cli to C:\Users\DILIP\AppData\Roaming\npm-cache\registry.npmjs.org\_40angular_252fcli\.cache.json
+83 verbose correctMkdir C:\Users\DILIP\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+84 silly addNameTag next cb for @angular/cli with tag latest
+85 silly addNamed @angular/cli@6.0.1
+86 verbose addNamed "6.0.1" is a plain semver version for @angular/cli
+87 silly mapToRegistry name @angular/cli
+88 silly mapToRegistry scope (from package name) @angular
+89 verbose mapToRegistry no registry URL found in name for scope @angular
+90 silly mapToRegistry using default registry
+91 silly mapToRegistry registry https://registry.npmjs.org/
+92 silly mapToRegistry data Result {
+92 silly mapToRegistry   raw: '@angular/cli',
+92 silly mapToRegistry   scope: '@angular',
+92 silly mapToRegistry   escapedName: '@angular%2fcli',
+92 silly mapToRegistry   name: '@angular/cli',
+92 silly mapToRegistry   rawSpec: '',
+92 silly mapToRegistry   spec: 'latest',
+92 silly mapToRegistry   type: 'tag' }
+93 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcli
+94 verbose addRemoteTarball https://registry.npmjs.org/@angular/cli/-/cli-6.0.1.tgz not in flight; adding
+95 verbose addRemoteTarball [ 'https://registry.npmjs.org/@angular/cli/-/cli-6.0.1.tgz',
+95 verbose addRemoteTarball   '52c21451716be51716a413c5367b3f3d003f8447' ]
+96 info retry fetch attempt 1 at 11:47:33 PM
+97 info attempt registry request try #1 at 11:47:33 PM
+98 http fetch GET https://registry.npmjs.org/@angular/cli/-/cli-6.0.1.tgz
+99 info retry will retry, error on last attempt: Error: unable to verify the first certificate
+100 info attempt registry request try #2 at 11:47:43 PM
+101 http fetch GET https://registry.npmjs.org/@angular/cli/-/cli-6.0.1.tgz
+102 info retry will retry, error on last attempt: Error: unable to verify the first certificate
+103 info attempt registry request try #3 at 11:48:43 PM
+104 http fetch GET https://registry.npmjs.org/@angular/cli/-/cli-6.0.1.tgz
+105 error fetch failed https://registry.npmjs.org/@angular/cli/-/cli-6.0.1.tgz
+106 warn retry will retry, error on last attempt: Error: unable to verify the first certificate
+107 info retry fetch attempt 2 at 11:48:53 PM
+108 info attempt registry request try #1 at 11:48:53 PM
+109 http fetch GET https://registry.npmjs.org/@angular/cli/-/cli-6.0.1.tgz
+110 info retry will retry, error on last attempt: Error: unable to verify the first certificate
+111 info attempt registry request try #2 at 11:49:03 PM
+112 http fetch GET https://registry.npmjs.org/@angular/cli/-/cli-6.0.1.tgz
+113 info retry will retry, error on last attempt: Error: unable to verify the first certificate
+114 info attempt registry request try #3 at 11:50:04 PM
+115 http fetch GET https://registry.npmjs.org/@angular/cli/-/cli-6.0.1.tgz
+116 error fetch failed https://registry.npmjs.org/@angular/cli/-/cli-6.0.1.tgz
+117 warn retry will retry, error on last attempt: Error: unable to verify the first certificate
+118 info retry fetch attempt 3 at 11:51:04 PM
+119 info attempt registry request try #1 at 11:51:04 PM
+120 http fetch GET https://registry.npmjs.org/@angular/cli/-/cli-6.0.1.tgz
+121 info retry will retry, error on last attempt: Error: unable to verify the first certificate
+122 info attempt registry request try #2 at 11:51:14 PM
+123 http fetch GET https://registry.npmjs.org/@angular/cli/-/cli-6.0.1.tgz
+124 info retry will retry, error on last attempt: Error: unable to verify the first certificate
+125 info attempt registry request try #3 at 11:52:14 PM
+126 http fetch GET https://registry.npmjs.org/@angular/cli/-/cli-6.0.1.tgz
+127 error fetch failed https://registry.npmjs.org/@angular/cli/-/cli-6.0.1.tgz
+128 silly rollbackFailedOptional Starting
+129 silly rollbackFailedOptional Finishing
+130 silly runTopLevelLifecycles Finishing
+131 silly install printInstalled
+132 verbose stack Error: unable to verify the first certificate
+132 verbose stack     at Error (native)
+132 verbose stack     at TLSSocket.<anonymous> (_tls_wrap.js:1092:38)
+132 verbose stack     at emitNone (events.js:86:13)
+132 verbose stack     at TLSSocket.emit (events.js:185:7)
+132 verbose stack     at TLSSocket._finishInit (_tls_wrap.js:610:8)
+132 verbose stack     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:440:38)
+133 verbose cwd D:\Final Year Project\PickMyCrops\App
+134 error Windows_NT 10.0.16299
+135 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "i" "-g" "@angular/cli"
+136 error node v6.11.1
+137 error npm  v3.10.10
+138 error code UNABLE_TO_VERIFY_LEAF_SIGNATURE
+139 error unable to verify the first certificate
+140 error If you need help, you may report this error at:
+140 error     <https://github.com/npm/npm/issues>
+141 verbose exit [ 1, true ]
